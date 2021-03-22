@@ -1,0 +1,32 @@
+[ 
+  { 
+    "label": "Greeting text", 
+    "name": "greeting", 
+    "type": "text", 
+    "default": "Hello world!", 
+    "description": "The greeting text displayed to the end user."
+  }, 
+  {
+    "label": "Card image",
+    "name": "image",
+    "type": "image",
+    "optional": true,
+    "description": "Image shown on card, optional. Without this the card will show just the text."
+  },
+  {
+  "name": "color",
+  "type": "text",
+  "label": "Color",
+  "description": "The color of the element",
+  "optional": true,
+  "default": "000000",
+  "widget": "colorSelector",
+  "spectrum": {
+    "showPalette": true,
+    "palette": [
+          ["black", "white", "blanchedalmond"],
+          ["rgb(255, 128, 0);", "hsv 100 70 50", "lightyellow"]
+      ]
+  }
+}
+]
