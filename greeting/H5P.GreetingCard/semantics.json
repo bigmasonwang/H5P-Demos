@@ -28,5 +28,14 @@
           ["rgb(255, 128, 0);", "hsv 100 70 50", "lightyellow"]
       ]
   }
+  },
+  {
+  "name": "task",
+  "type": "library",
+  "label": "Task",
+  "options": [
+    "H5P.MultiChoice 1.14",
+    "H5P.Blanks 1.12"
+  ]
 }
 ]

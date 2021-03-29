@@ -1,5 +1,5 @@
 {
-  "title": "Greeting card v2",
+  "title": "Greeting card with other library",
   "language": "en",
   "author": "Tutorial user",
   "license": "CC BY-SA",
@@ -11,7 +11,7 @@
   "preloadedDependencies": [{
     "machineName": "H5P.GreetingCard",
     "majorVersion": 1,
-    "minorVersion": 0 
+    "minorVersion": 2 
   },
   {
     "machineName": "H5PEditor.ColorSelector",
